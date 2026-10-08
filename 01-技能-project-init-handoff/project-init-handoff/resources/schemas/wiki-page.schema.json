@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://r-icl.local/schemas/wiki-page.schema.json",
+  "title": "WikiPage (Open Knowledge Format v0.2 schema)",
+  "description": "Schema for OKF v0.2-compatible LLM Wiki pages (concept, entity, synthesis, retro, trajectory, skill, source).",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "title",
+    "type",
+    "status",
+    "created"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(CON|ENT|SYN|RETRO|TRAJ|SKILL|SRC|EVID|C)-[A-Za-z0-9_-]+$",
+      "description": "Stable canonical entity identifier"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable page title"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "concept",
+        "entity",
+        "synthesis",
+        "retro",
+        "trajectory",
+        "skill",
+        "source"
+      ],
+      "description": "OKF v0.2 page category"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "draft",
+        "immutable",
+        "recorded",
+        "distilled",
+        "archived",
+        "deprecated",
+        "superseded"
+      ],
+      "description": "Lifecycle status of the knowledge node"
+    },
+    "created": {
+      "type": "string",
+      "description": "Creation date (YYYY-MM-DD)"
+    },
+    "updated": {
+      "type": "string",
+      "description": "Last updated date (YYYY-MM-DD)"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternate titles or synonyms for search and linking"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Classification tags"
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Upstream source references or immutable source IDs"
+    },
+    "task_slice_ref": {
+      "type": "string",
+      "description": "Associated TaskSlice identifier if originated from task execution"
+    },
+    "trajectories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Underlying trajectory IDs for distilled skill pages"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Concise 1-2 sentence distillation for fast cataloging and index projections"
+    }
+  }
+}

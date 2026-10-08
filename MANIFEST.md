@@ -1,0 +1,53 @@
+# 文件清单与校验值 · Agent资料归档-20261006
+
+生成时间:2026-10-06 18:59 (Asia/Shanghai)
+校验算法:SHA-256
+
+```
+60e94bc0fbea178cf263642b677ec2c8c51775af62f31acda29ff159b2669953  01-技能-project-init-handoff/project-init-handoff/SKILL.md
+4b7fc3bb73b32f380184002e015e57546e88f593c2330351a082d0b3ecdd2383  01-技能-project-init-handoff/project-init-handoff/resources/contracts/01_实体与版本合同.md
+f8c02d1f2184f7ad2b2fad3fad1fddd1d7c998c2267b06fede3a636b1ec1f869  01-技能-project-init-handoff/project-init-handoff/resources/contracts/02_TaskSlice与Handoff合同.md
+5893ccf2be2628b754b39dd63cdc245aecd8b42e4a5639df9b809bb927d5bd24  01-技能-project-init-handoff/project-init-handoff/resources/contracts/04_可执行不变量.md
+192f95c53dfd2359f9f319700c911d1459d2fb75aebf43f321052efe2ab59ec4  01-技能-project-init-handoff/project-init-handoff/resources/contracts/05_Gate清单与批准边界.md
+56e5ab55ed497a47af8be9b9f2a085d10821818936166733e6e20b6a1cb26ae0  01-技能-project-init-handoff/project-init-handoff/resources/contracts/06_数据边界.md
+b10881ea84689097ec849b6ef4512999a54afb66ac618e729fe6e72be1b4c0f0  01-技能-project-init-handoff/project-init-handoff/resources/contracts/07_错误处置与fail_closed.md
+546b64a9a427b72e2d621954d1f270ac2a5d9c5adef91778ab670fed6b2cc821  01-技能-project-init-handoff/project-init-handoff/resources/contracts/08_共享执行与审核合同.md
+a37063bc99c804288f83467603a0647cca6822152e2e12be9ef0338e3e09b2ac  01-技能-project-init-handoff/project-init-handoff/resources/schemas/experiment-spec-readonly.schema.json
+77c2ee215d31ed88004dcfc75d9783431c8becbe27a8d49e2c6ca74b3c46ea42  01-技能-project-init-handoff/project-init-handoff/resources/schemas/handoff-bundle.schema.json
+cf2b4f1dce152fb5c676f4e9c7c25baec9b1b54b086b5473e436fbae1f68ff4c  01-技能-project-init-handoff/project-init-handoff/resources/schemas/result-bundle.schema.json
+da39c1b37a8e4a2922cf85953266f1b2bef020d0f2c845a02d970887fd318828  01-技能-project-init-handoff/project-init-handoff/resources/schemas/task-slice.schema.json
+48bedaa8ef363586d0466c9f9ddb9f38be697bfce77c2ecaa2e53dc1d84ac7af  01-技能-project-init-handoff/project-init-handoff/resources/schemas/wiki-page.schema.json
+15d19ae67d0418a51c9d0030dede04175471a6f7a7efeb85cc41420e3636881a  01-技能-project-init-handoff/project-init-handoff/resources/templates/Claim.md
+c470df7cbfb36dfd187eec1970b723563b113a0238dc7859128596ee0a98b3a4  01-技能-project-init-handoff/project-init-handoff/resources/templates/Decision.md
+26897dfae112b18fcc68a9db85b0a141b040c4ef11bc9ca004320e8b67fc45d5  01-技能-project-init-handoff/project-init-handoff/resources/templates/EvidenceCard.md
+034a20f235c99b9c33bcc422a323d1738e387bb2dd9b251318ab0c96117c739d  01-技能-project-init-handoff/project-init-handoff/resources/templates/EvidenceSnapshot.md
+efb0ba7932300076277c99437428d279e6429ca824a42f9abb1e5d789e972b5e  01-技能-project-init-handoff/project-init-handoff/resources/templates/ExperimentSpec.md
+a746302abf26d8d9f5b72d156559d5f25363ae76c38b81db28a3c1321571d3fc  01-技能-project-init-handoff/project-init-handoff/resources/templates/HandoffBundle.md
+aa701d301f9fede1f4fce3735d89cd52ffeed55ff5e8c58c63e96351899e1f5c  01-技能-project-init-handoff/project-init-handoff/resources/templates/ResearchEvent.md
+e3d93b7e467e26645cc3bcd3b7a3106b3e192f4a4ff1992d855e59203a2ee315  01-技能-project-init-handoff/project-init-handoff/resources/templates/ResultBundle.md
+a2cad1661dbb05e07bb45697e8abf3940e3dc2d45d475f9b26360fb0fe382337  01-技能-project-init-handoff/project-init-handoff/resources/templates/RunManifest.md
+04788d61a36428b0c7567ceb6d1153d3a5e28ac5be792677c5f5533714fe9f8d  01-技能-project-init-handoff/project-init-handoff/resources/templates/TaskPackage.md
+60f2babc2136c2ad0b0cc7e9ef7ffa41862b281365bc8090b7cc7dd5e4854db4  01-技能-project-init-handoff/project-init-handoff/resources/templates/TaskSlice.md
+86c096a9a8da81003abd567c6f057d8c69dcd5f660dfcffed6f800236d1e5bff  01-技能-project-init-handoff/project-init-handoff/resources/templates/ValidationReviewPackage.md
+4c961a6da36156c02619acffe4fca386a6e6e2f7f105e40304dd20a958a6fb82  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiConcept.md
+e8524b3e5b6d46b63670150ad2b25026b15fd22cedf783f75d811214ec2d84d6  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiEntity.md
+7752ec66462eb7c13481823789d7a1fad5466471b35a57800da50d6274e25db7  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiRetro.md
+321c1dbb9531a1dac649d34bf296cec5794f352bd895bbfd5562200d5d34a22e  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiSkillCase.md
+1ccd52f5e6c744c022bb81cf2d9e3ca9c75896ab774dc07802b0540cc268ff0c  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiSourcePacket.md
+e40a9f2a91407591b69c5012819a34d6dbfcecfbfe31884255ded3fc27a779f8  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiSynthesis.md
+74a7f7c27034d0f87b3b785208e4e88f016bfeeaab0919e93de886705f691ad5  01-技能-project-init-handoff/project-init-handoff/resources/templates/WikiTrajectory.md
+cd5304a236e5d25163da91e881baf555eb6c356b5280932d373c82f29ded5e41  01-技能-project-init-handoff/project-init-handoff/scripts/init_project.py
+68bd7af6b68bba4f1d974e502a74fa34fb8f8cd589aa8480012d93793605b4d0  01-技能-project-init-handoff/project-init-handoff/scripts/log_event.py
+20ff670b72156759cf51b2d33f44dc43c216714023f230256d9bc9924699cfa9  01-技能-project-init-handoff/project-init-handoff/scripts/verify_bundle.py
+a4571ed1ece2b320d6f8ba1da9ada96aa35fd8078ce7a44269f45d5c96d9f093  01-技能-project-init-handoff/project-init-handoff/scripts/wiki_tool.py
+9069b253aa8adc4b814c7d2b2d74cd14577ea4cc22dce936b0ddbbb41e1f1235  01-技能-project-init-handoff/project-init-handoff/tests/test_init_project.py
+1d61018525a9fc4942504a88109c1eb698d5a26642205e75a18c7054fe11f6b0  01-技能-project-init-handoff/project-init-handoff/tests/test_wiki_tool.py
+3c81a4f740d372c03afaf5a26d0a792200c26d472236e37bcc96fc521058e2d5  02-插件-pi-hub/extensions/__tests__/hub-rpc.mjs
+548711b2d0a2cffbf5338ab71e42b06c08c3eae17329675ce63d6780f1b94dc0  02-插件-pi-hub/extensions/__tests__/hub.test.ts
+acbf23d98ac14b84558d804f5dbe4978a391f25d2923b0c202d794c658fa0a48  02-插件-pi-hub/extensions/hub.ts
+bb7257e4b4b7b5238efdd2610250a2a36c667e5a058bae7be3a16220fa163f85  02-插件-pi-hub/extensions/lib/hub/discover.ts
+082a736f1f509a383fef9bb27104ace74a96b9cf004a5d4fb32feb34223833b1  02-插件-pi-hub/extensions/lib/hub/server.ts
+8bf93303cd75e36358b321e9b4723a1574d2829bda629214e68cb0144427dfbd  02-插件-pi-hub/extensions/lib/hub/state.ts
+82e3e8350030cf72297c5371c33b86b0480310e54db657032a66bff61e8147b0  02-插件-pi-hub/extensions/lib/skills-deploy/paths.ts
+2c074aff241dd79e65244ed63966d10dd47082ae1e739c2c6d8292cc5a13c473  02-插件-pi-hub/extensions/lib/skills-deploy/readme.ts
+```
